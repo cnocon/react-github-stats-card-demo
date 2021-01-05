@@ -14,9 +14,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 // src/App.js
 import React from 'react';
 import './App.css';
-// import Card from package and then pass username to Card component, and optionally an accessToken (String) and theme (Boolean)
+// import Card from package 
 import Card from 'react-github-stats-card/dist/Card';
 
+// pass username to Card component, and optionally an accessToken (String) and theme (Boolean)
 function App() {
   return <Card username="cnocon" theme={true} />
 }
